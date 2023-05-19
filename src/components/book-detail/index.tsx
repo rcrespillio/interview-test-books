@@ -1,12 +1,9 @@
 "use client";
 
-import BooksList from "@/components/books-list";
-import SearchBar from "@/components/search-bar";
 import Spinner from "@/components/spinner";
-import React, { useState } from "react";
+import React from "react";
 import useFetch from "react-fetch-hook";
 import createTrigger from "react-use-trigger";
-import useTrigger from "react-use-trigger/useTrigger";
 
 import { Routes, Route, useNavigate, useParams, Link } from "react-router-dom";
 
